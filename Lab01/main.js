@@ -237,7 +237,7 @@ var offset = 0;        // start at the beginning of the buffer
 gl.vertexAttribPointer(positionAttributeLocation, size, type, normalize, stride, offset); 
 gl.useProgram(program);
 
-//##### Setting color to  white
+//##### Setting color to  black
 gl.uniform4f(colorLocation, 0 ,0 ,0, 1.0);
 
 //##### Drawing the letter
